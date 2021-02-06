@@ -1,12 +1,12 @@
-package com.github.shun_173.memerandum.app.controller;
+package com.github.shun_inami.memerandum.app.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.github.shun_173.memerandum.domain.entity.Task;
-import com.github.shun_173.memerandum.domain.mapper.TaskMapper;
+import com.github.shun_inami.memerandum.domain.entity.Task;
+import com.github.shun_inami.memerandum.domain.mapper.TaskMapper;
 
 @Controller
 public class MemeController {
